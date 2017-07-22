@@ -13,8 +13,6 @@ sudo debconf-set-selections <<< 'mariadb-server mariadb-server/root_password pas
 sudo debconf-set-selections <<< 'mariadb-server mariadb-server/root_password_again password $root_mysql_passwd'
 sudo apt-get -y install mariadb-server
 
-#Restart all the installed services to verify that everything is installed properly
-
 echo -e "\n"
 
 service apache2 restart && service mysql restart > /dev/null
