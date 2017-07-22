@@ -1,11 +1,4 @@
 #!/bin/bash
-
-#Instructions to use this script 
-#
-#chmod +x SCRIPTNAME.sh
-#
-#sudo ./SCRIPTNAME.sh
-
 root_mysql_passwd = ""
 
 echo "###################################################################################"
